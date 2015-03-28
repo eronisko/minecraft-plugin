@@ -1,3 +1,7 @@
 name: FirstPlugin
 main: eronisko.minecraft.plugin.firstplugin.FirstPlugin
 version: 1.0-SNAPSHOT
+commands:
+  shout:
+    description: Shout something to everyone
+    usage: /<command> [message]
